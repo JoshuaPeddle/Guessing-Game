@@ -9,9 +9,9 @@ LOWER_BOUND = 1
 def guessing_game():
     while True:
         try:
-            user_guess = int(input('Guess a number between 1 and 100: '))
+            user_guess = int(input(f'Guess a number between {LOWER_BOUND} and {UPPER_BOUND}: '))
             if user_guess < LOWER_BOUND or user_guess > UPPER_BOUND:
-                print('Input should be a number between 1 and 100')
+                print(f'Input should be a number between {LOWER_BOUND} and {UPPER_BOUND}')
                 continue
             if user_guess == TARGET:
                 print('Correct')
