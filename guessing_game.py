@@ -1,5 +1,5 @@
 """
-Usage: python main.py
+Usage: python guessing_game.py
 """
 
 TARGET      = 42 
