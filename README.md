@@ -4,7 +4,7 @@ This repository contains a guessing game implemented in Python. The game asks th
 
 
 ## Prerequisites
-Python 3.x
+Python 3.6 or later is required to run the game.
 
 No additional packages are required.
 
